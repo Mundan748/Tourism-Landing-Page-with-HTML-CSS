@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Packages</title>
+  <style>
+    @import url('/style.css');
+    @import url('/other.css');
+    .body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .package-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .package {
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .package:hover {
+      transform: scale(1.02);
+    }
+
+    .package img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .package-content {
+      padding: 15px;
+    }
+
+    .package-content h3 {
+      margin-top: 0;
+      color: #007BFF;
+    }
+
+    .package-content p {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+    <div class="common nav">
+        <section>
+            <img src="/logo.png" alt="">
+        </section>
+        <section>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="package.html">PACKAGE</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contactUs.html">CONTACT US</a></li>
+                <li><a href="login.html">LOG IN</a></li>
+            </ul>
+        </section>
+    </div>  
+    <div class="body">
+  <div class="container">
+    <h1>Our Travel Packages</h1>
+    <div class="package-grid">
+      
+      <div class="package">
+        <img src="/goaBeach.png" alt="Goa Beach">
+        <div class="package-content">
+          <h3>Goa Beach Escape</h3>
+          <p>3 Nights / 4 Days - Enjoy the vibrant beaches and nightlife of Goa.</p>
+          <p class="price">₹12,999 per person</p>
+        </div>
+      </div>
+
+      <div class="package">
+        <img src="/kasmir.png" alt="Kashmir">
+        <div class="package-content">
+          <h3>Kashmir Paradise</h3>
+          <p>5 Nights / 6 Days - Explore the beauty of Srinagar, Gulmarg, and Pahalgam.</p>
+          <p class="price">₹18,500 per person</p>
+        </div>
+      </div>
+
+      <div class="package">
+        <img src="/kerla.png" alt="Kerala Backwaters">
+        <div class="package-content">
+          <h3>Kerala Backwaters</h3>
+          <p>4 Nights / 5 Days - Cruise through the peaceful backwaters and tea gardens.</p>
+          <p class="price">₹16,000 per person</p>
+        </div>
+      </div>
+
+      <div class="package">
+        <img src="/rajastan.png" alt="Rajasthan Desert">
+        <div class="package-content">
+          <h3>Rajasthan Desert Tour</h3>
+          <p>5 Nights / 6 Days - Experience forts, camels, and royal culture of Rajasthan.</p>
+          <p class="price">₹14,999 per person</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>

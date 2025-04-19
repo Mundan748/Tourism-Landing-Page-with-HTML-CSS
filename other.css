@@ -1,0 +1,59 @@
+.gallhed{
+    text-align: center;
+    padding: 10px;
+    color: red;
+ }
+ body{
+    
+    background-color: #efe9ff;
+ }
+ .gallery{
+    width: 1200px;
+    min-height: 100px;
+    max-height: fit-content;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(220, 142, 142);
+ }
+ .gallery>section{
+    margin: 10px;
+    background-color: #ffff;
+    /* border: 1px solid blue; */
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+ }
+ .gallery img{
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+ }
+
+.login{
+    height: 400px;
+    width:30%;
+    text-align: center;
+    margin-block-start: 50px;
+    background-color: var(--llbg);
+    
+    padding-block-start: 15px;
+}
+.login input[type="email"],.login input[type="password"],.login input[type="submit"],.login input[type="text"]{
+    width: 70%;
+    height: 35px;
+    margin-block-end: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.login input[type="checkbox"]{
+    text-align: left;
+}
+.login h2{
+    margin-block: 40px 20px;
+}
+.login input[type="submit"]{
+    background-color: var(--lbg);
+    border: none;
+    margin-block-start: 30px;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+:root{
+    --th:16px;
+    --sth:14px;
+    --tth:12px;
+    --p:12px;
+    --h:50px;
+    --bg:rgb(39, 39, 201);
+    --lbg:rgb(149, 149, 229);
+    --llbg:rgb(199, 199, 251);
+    --lllbg:rgb(213, 213, 249);
+    --dbg:rgb(4, 4, 106);
+    --tc:black;
+    --b:1px solid red;
+    --b1:1px solid blue; 
+}
+.common{
+    width: 100%;
+    min-height: 50px;
+    /* border: var(--b); */
+    max-height: fit-content;
+    display: flex;
+    /* align-items: center; */
+}
+.common>section{
+    flex: 1;
+    /* border: var(--b1); */
+    text-align: center;
+}
+.nav{
+    background-color: var(--lllbg);
+}
+.nav section:nth-child(2){
+    flex: 2.5;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    width: 85%;
+}
+.nav li{
+    flex: 1;
+}
+.nav a{
+    text-decoration: none;
+    color: var(--tc);
+    width: 100%;
+    height: var(--h);
+    display: inline-block;
+    line-height: var(--h);
+}
+.nav a:hover{
+    background-color: var(--llbg);
+}
+.nav img{
+    height: var(--h);
+}
+
+.slide{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+.slide>section{
+    width: 500%;
+    position: relative;
+    animation: slide 10s   infinite alternate ease-in-out;
+}
+.slide img{
+    width: 20%;
+    height: 400px;
+    float: left;
+}
+

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+
+  .about-section {
+    padding: 60px 10%;
+  }
+
+  .heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .heading h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+  }
+
+  .heading .tagline {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-top: 10px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-block {
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+
+  .text-block h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin: 20px 0 10px;
+  }
+
+  .text-block ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .text-block li {
+    margin-bottom: 10px;
+  }
+
+  .text-block .quote {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    margin-top: 30px;
+  }

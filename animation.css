@@ -1,0 +1,14 @@
+@keyframes slide{
+    0%{left: 0%;}
+    20%{left: 0%;}
+    25%{left: -100%;}
+    40%{left: -100%;}
+    45%{left: -200%;}
+    60%{left: -200%;}
+    65%{left: -300%;}
+    80%{left: -300%;}
+    85%{left: -400%;}
+    100%{left: -400%;}
+}
+/* https://www.smarteyeapps.com/storage/products/bootstrap-travel-website-templates.webp
+https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/db48832f658d73be8915c9949a72e0a71030585ccb396d39136f287dda366fd01610446838561.jpg */
